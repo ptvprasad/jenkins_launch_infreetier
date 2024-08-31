@@ -7,7 +7,7 @@ sudo apt install openjdk-17-jdk -y
 
 # installing Maven
 sudo apt update -y
-sudo apt install -y
+sudo apt install maven -y
 
 # to install jenkins import the jenkins to apt repo
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
