@@ -12,6 +12,13 @@ sudo apt install maven -y
 # installing docker
 sudo apt install docker.io -y
 
+#importing ansible repo and install
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository --yes --update ppa:ansible/ansible
+sudo apt install ansible
+
+
 # to install jenkins import the jenkins to apt repo
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
 https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
