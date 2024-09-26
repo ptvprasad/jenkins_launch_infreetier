@@ -16,7 +16,7 @@ sudo apt install docker.io -y
 sudo apt update
 sudo apt install software-properties-common
 sudo add-apt-repository --yes --update ppa:ansible/ansible
-sudo apt install ansible
+sudo apt install ansible -y
 
 
 # to install jenkins import the jenkins to apt repo
