@@ -9,6 +9,9 @@ sudo apt install openjdk-17-jdk -y
 sudo apt update -y
 sudo apt install maven -y
 
+# installing docker
+sudo apt install docker.io -y
+
 # to install jenkins import the jenkins to apt repo
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
 https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
