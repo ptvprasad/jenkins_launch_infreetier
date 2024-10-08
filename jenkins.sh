@@ -10,13 +10,13 @@ sudo apt update -y
 sudo apt install maven -y
 
 # installing docker
-sudo apt install docker.io -y
+#sudo apt install docker.io -y
 
 #importing ansible repo and install
-sudo apt update
-sudo apt install software-properties-common
-sudo add-apt-repository --yes --update ppa:ansible/ansible
-sudo apt install ansible -y
+#sudo apt update
+#sudo apt install software-properties-common
+#sudo add-apt-repository --yes --update ppa:ansible/ansible
+#sudo apt install ansible -y
 
 
 # to install jenkins import the jenkins to apt repo
