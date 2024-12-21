@@ -6,8 +6,8 @@ sudo apt update -y
 sudo apt install openjdk-17-jdk -y
 
 # installing Maven
-sudo apt update -y
-sudo apt install maven -y
+#sudo apt update -y
+#sudo apt install maven -y
 
 # installing docker
 #sudo apt install docker.io -y
